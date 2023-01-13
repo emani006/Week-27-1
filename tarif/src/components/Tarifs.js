@@ -1,4 +1,6 @@
 import React from 'react';
+//import CardPlus from './CardPlus';
+//import CardStandard from './CardStandard';
 
 function Tarifs(props) {
     const note = 'Объем включенного трафика не ограничен';
@@ -12,7 +14,7 @@ if (props.price === 550) {
                 <span className='price'>{props.price}</span><span className='monthly'> /мес.</span>
             </div>
             <div className='bottom'><span>до </span><span>{props.speed}</span><span> Мбит/сек</span></div>
-            <div className='note'>{note}</div>
+            <div className='note'>'Объем включенного трафика не ограничен'</div>
         </div>
         );
 } else {

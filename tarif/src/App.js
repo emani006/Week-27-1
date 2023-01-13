@@ -1,6 +1,6 @@
 import React from 'react';
 import tariflist from './components/Tariflist';
-import Tarifs from './components/Tarifs';
+import Tarifs from './components/Tarifs1';
 import "./styles/mainStyle.css";
 
 function App() {
